@@ -9,6 +9,7 @@
 :root {
     font-size: 62.5%;
     --black: #333A41;
+    --black-trans: #333a41ce;
     --icon: #333a41de;
     --white: #ebf2fdd2;
     --frost: #e1e5ece7;
@@ -23,4 +24,5 @@ body {
     min-width: 320px;
     font-family: 'DM Sans', sans-serif;
     text-transform: uppercase;
+    background-color: var(--red);
 }
