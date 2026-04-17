@@ -17,10 +17,24 @@
 }
 
 .titlecard{
-    height: 85vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 4rem;
     color: var(--white);
+
+    border: 2px solid white;
+}
+
+.photopresentation {
+    height: 1000px;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.photo {
+    height: 90%;
 }
