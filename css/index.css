@@ -19,8 +19,6 @@
 
 .main-container {
     margin: 0 10px 0 10px;
-
-    border: 2px solid blue;
 }
 
 
@@ -34,7 +32,7 @@
 }
 
 
-.primary-portrait-container {
+.primary-portrait-card-container {
     height: auto;
     display: flex;
 }
@@ -55,39 +53,29 @@
 
 
 
-
-
-
-.second-titlecard {
+.primary-landscape-card-container {
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 8.5rem;
+    margin: 20px 0;
+    background-color: black;
+}
+.primary-landscape-titlecard {
     color: var(--white);
-    margin: 50px 10px 50px 10px;
+    font-size: 8rem;
 }
-.third-titlecard {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 8.5rem;
-    color: var(--white);
-    margin: 50px 10px 50px 10px;
-    background-color: var(--black);
+.primary-landscape-photo-container {
+    margin-bottom: 20px;
 }
-
-.resort {
-    width: 1000px;
-    border-radius: 2%;
+.primary-landscape {
+    width: 800px;
 }
 
 
 
-.code-box {
+/*.code-box {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
