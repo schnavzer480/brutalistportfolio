@@ -25,16 +25,44 @@
     color: var(--white);
 }
 
+.second-titlecard {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 8.5rem;
+    color: var(--white);
+    margin: 50px 10px 50px 10px;
+}
+.third-titlecard {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 8.5rem;
+    color: var(--white);
+    margin: 50px 10px 50px 10px;
+    background-color: var(--black);
+}
+
 .photopresentation {
-    height: 1000px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
+.resort {
+    width: 1000px;
+    border-radius: 2%;
+}
 
 .photo {
-    height: 90%;
+    height: 88rem;
+    padding: 0 10px 0 10px;
+    border-radius: 2%;
 }
 
 .photo-title {
@@ -49,6 +77,18 @@
     align-items: center;
     overflow-wrap: break-word;
     word-break: break-word;
-    font-size: 13rem;
+    font-size: 12rem;
     color: var(--white);
+}
+
+.code-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 0 50px 0;
+}
+
+.code {
+    height: 25rem;
+    border-radius: 2%;
 }
