@@ -73,6 +73,38 @@
 }
 
 
+.about-section-container {
+    height: 500px;
+    display: flex;
+
+    border: 2px solid var(--black);
+}
+.about-wrapper {
+    height: 100%;
+    width: 100%;
+    background-color: var(--black);
+    display: flex;
+}
+.about-img {
+    width: 50%;
+    background-color: black;
+}
+.nikon-img {
+    width: 75rem;
+    padding-left: 20px;
+}
+.about-card {
+    width: 50%;
+    background-color: var(--red);
+    text-align: end;
+    display: flex;
+}
+.profile-img {
+    width: 20%;
+    height: auto;
+    flex-shrink: 0;
+}
+
 
 /*.code-box {
     display: flex;
