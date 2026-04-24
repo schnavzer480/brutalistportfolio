@@ -91,12 +91,21 @@
 }
 .about-card {
     width: 50%;
-    background-color: var(--red);
+    background-color: var(--white);
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-card-text {
+    font-size: 1.6rem;
+    overflow-wrap: break-word;
+    padding: 10px;
 }
 .profile-img {
-    width: 250px;
+    width: 400px;
     height: auto;
+    border-radius: 5%;
+    padding: 10px;
 }
 
 
