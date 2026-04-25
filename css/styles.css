@@ -8,13 +8,9 @@
 
 :root {
     font-size: 62.5%;
-    --black: #333A41;
-    --black-trans: #333a41ce;
-    --icon: #333a41de;
+    --black: #0b0b0c;
     --white: #ebf2fdd2;
-    --frost: #e1e5ece7;
     --red: rgb(221, 17, 17);
-    --violet: #5c1ecf;
 }
 
 
