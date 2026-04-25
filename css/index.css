@@ -136,7 +136,7 @@
     justify-content: center;
     align-items: center;
     margin: 30px 40px;
-    padding: 50px;
+    padding: 0 0 50px 0;
     background-color: black;
 }
 .landscape-container img {
@@ -146,8 +146,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 20px 20px 80px 20px;
     width: 100%;
+}
+.landscape-container h2 {
+    font-size: 9rem;
+    padding-top: 10px;
 }
 .landscape-bottom {
     display: flex;
@@ -157,6 +161,38 @@
 .landscape-bottom img {
     height: 400px;
     border: 1px solid var(--white);
+}
+
+
+.dahlia-container {
+    margin: 100px 0 50px 0;
+}
+.dahlia-titlecard h2 {
+    font-size: 8rem;
+}
+.dahlia-top {
+    width: 100%;
+}
+.dahlia-top img {
+    width: 100%;
+    border: 1px solid var(--black);
+}
+.dahlia-mid {
+    display: flex;
+    justify-content: space-evenly;
+}
+.dahlia-mid img {
+    height: 400px;
+    border: 1px solid var(--black);
+    margin: 20px 0 20px 0;
+}
+
+.dahlia-bottom {
+    width: 100%;
+}
+.dahlia-bottom img {
+    width: 100%;
+    border: 1px solid var(--black);
 }
 /*.code-box {
     display: flex;
