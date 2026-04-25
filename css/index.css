@@ -114,7 +114,6 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    order: 2px solid white;
 }
 
 
@@ -169,6 +168,7 @@
 }
 .dahlia-titlecard h2 {
     font-size: 8rem;
+    color: var(--white);
 }
 .dahlia-top {
     width: 100%;
