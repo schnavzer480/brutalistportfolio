@@ -145,6 +145,10 @@
     padding: 0 0 50px 0;
     background-color: var(--black);
 }
+primary-landscape-titlecard h4 {
+    color: var(--white);
+    font-size: 8rem;
+}
 .landscape-container img {
     border: 1px solid var(--black);
 }
@@ -156,7 +160,7 @@
     width: 100%;
 }
 .landscape-top img {
-    width: 800px;
+    width: 1300px;
     border: 1px solid var(--white);
 }
 .landscape-container h2 {
