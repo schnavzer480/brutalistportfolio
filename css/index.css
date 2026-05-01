@@ -89,10 +89,7 @@
     height: 500px;
     display: flex;
     background-color: var(--black);
-    border: 2px solid var(--black);
-}
-.about-text {
-    margin-bottom: 10px;
+    border: 1px solid var(--black);
 }
 .about-img {
     width: 50%;
@@ -104,15 +101,18 @@
 }
 .about-card {
     width: 50%;
-    background-color: var(--white);
+    background-color: var(--red);
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.about-card-text {
+.about-card-text-wrapper {
     font-size: 1.7rem;
     overflow-wrap: break-word;
     padding: 10px;
+}
+.about-text {
+    margin-bottom: 10px;
 }
 .profile-img {
     width: 380px;
