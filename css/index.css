@@ -38,7 +38,7 @@
     height: auto;
     display: flex;
 }
-.primary-portrait {
+.primary-portrait-img {
     height: 90rem;
 }
 .primary-portrait-titlecard-container {
@@ -46,7 +46,7 @@
     align-items: center;
     margin: 0 10px 0 10px;
 }
-.primary-portrait-titlecard {
+.primary-portrait-titlecard-text {
     text-align: center;
     word-break: break-word;
     font-size: 12rem;
@@ -64,14 +64,22 @@
     margin: 30px 40px;
     background-color: var(--black);
 }
-.primary-landscape-titlecard {
+.primary-landscape-titlecard-container {
     color: var(--white);
     font-size: 8rem;
 }
+.primary-landscape-titlecard-text {
+    text-align: center;
+    word-break: break-word;
+    padding-top: 10px;
+    font-size: 12rem;
+    color: var(--white);
+}
+
 .primary-landscape-photo-container {
     margin-bottom: 40px;
 }
-.primary-landscape {
+.primary-landscape-img {
     width: 800px;
 }
 
