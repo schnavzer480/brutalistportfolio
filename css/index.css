@@ -259,12 +259,16 @@
     justify-content: space-around;
     align-items: center;
     width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 .code-p {
     font-size: 2.5rem;
 }
 .contact-text img {
-    width: 100px;
+    width: 50px;
 }
 .contact-img {
     display: flex;
