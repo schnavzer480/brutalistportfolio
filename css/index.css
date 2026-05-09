@@ -91,7 +91,7 @@
 
 
 
-.about-section-container {
+.about-container {
     height: 500px;
     display: flex;
     background-color: var(--black);
