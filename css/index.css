@@ -281,7 +281,6 @@
 .contact-text a:hover img {
     transform: scale(1.25);
     filter: brightness(1.2);
-
 }
 .contact-img {
     display: flex;
