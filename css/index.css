@@ -256,18 +256,26 @@
 }
 .contact-text {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     width: 50%;
 
-    display: flex;
-    justify-content: space-evenly;
+    gap: 15px;
 }
 .code-p {
     font-size: 2.5rem;
 }
 .contact-text img {
-    width: 50px;
+    width: 80px;
+}
+.contact-text a img {
+    transition: transform 0.2s ease, filter 0.2s ease;
+    cursor: pointer;
+}
+.contact-text a:hover img {
+    transform: scale(1.25);
+    filter: brightness(1.2);
+
 }
 .contact-img {
     display: flex;
@@ -277,4 +285,5 @@
 }
 .contact-img img {
     width: 230px;
+    border: 1px solid var(--black);
 }
