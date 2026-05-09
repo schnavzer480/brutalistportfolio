@@ -294,6 +294,28 @@
 }
 
 
+.footer-container {
+    width: 100%;
+    height: auto;
+    background-color: var(--black);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: var(--white);
+    font-size: 2rem;
+    padding: 20px 50px 20px 20px;
+}
+
+
+.to-nav {
+    color: var(--white);
+    text-decoration: none;
+}
+.to-nav:hover {
+    color: var(--red);
+}
+
+
 
 .fade-section {
     opacity: 0;
