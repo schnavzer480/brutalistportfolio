@@ -329,3 +329,469 @@
     opacity: 1;
     transform: translateY(0);
 }
+
+
+/* .nav-container {
+    border: 1px solid green;
+}
+.main-container {
+    border: 1px solid white;
+}
+.footer-container {
+    border: 1px solid blue;
+} */
+
+
+
+/* =========================
+   TABLET / SMALL LAPTOP
+========================= */
+
+@media screen and (max-width: 1400px) {
+
+    /* HERO */
+
+    .titlecard-container {
+        height: 70vh;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .titlecard-container h1 {
+        font-size: clamp(4rem, 8vw, 8rem);
+        line-height: 1;
+        word-break: break-word;
+    }
+
+    /* PRIMARY PORTRAIT */
+
+    .primary-portrait-card-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .primary-portrait-img {
+        width: 100%;
+        max-width: 700px;
+        height: auto;
+    }
+
+    .primary-portrait-titlecard-container {
+        margin: 0;
+        padding: 0 20px;
+    }
+
+    .primary-portrait-titlecard-text {
+        font-size: clamp(4rem, 9vw, 9rem);
+        line-height: 1;
+        text-align: center;
+        word-break: break-word;
+    }
+
+    /* PRIMARY LANDSCAPE */
+
+    .primary-landscape-titlecard-text {
+        font-size: clamp(4rem, 8vw, 8rem);
+        line-height: 1;
+        text-align: center;
+    }
+
+    .primary-landscape-img {
+        width: 100%;
+        max-width: 1000px;
+        height: auto;
+    }
+
+    /* ABOUT */
+
+    .about-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .about-img,
+    .about-card {
+        width: 100%;
+    }
+
+    .about-card {
+        padding: 30px;
+    }
+
+    .nikon-img {
+        width: 100%;
+        max-width: 800px;
+        height: auto;
+        padding-left: 0;
+    }
+
+    /* PORTRAITS */
+
+    .portrait-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .portrait-container img {
+        width: 45%;
+        height: auto;
+    }
+
+    /* LANDSCAPE */
+
+    .landscape-titlecard h2 {
+        font-size: clamp(4rem, 8vw, 8rem);
+        text-align: center;
+    }
+
+    .landscape-top img {
+        width: 100%;
+        height: auto;
+    }
+
+    .landscape-bottom {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .landscape-bottom img {
+        width: 45%;
+        height: auto;
+    }
+
+    /* DAHLIA */
+
+    .dahlia-titlecard h2 {
+        font-size: clamp(4rem, 7vw, 7rem);
+        text-align: center;
+    }
+
+    .dahlia-mid {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .dahlia-mid img {
+        width: 45%;
+        height: auto;
+    }
+
+    /* CODE */
+
+    .code-container {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .code-wrapper,
+    .logo-wrapper {
+        width: 100%;
+    }
+
+    .code-wrapper {
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .code-wrapper img {
+        width: 45%;
+        height: auto;
+    }
+
+    .logo-wrapper {
+        padding: 30px;
+        text-align: center;
+    }
+
+    /* CONTACT */
+
+    .contact-container {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 0;
+        gap: 40px;
+    }
+
+    .contact-text,
+    .contact-img {
+        width: 100%;
+    }
+
+    .contact-img {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .contact-img img {
+        width: 30%;
+        min-width: 200px;
+        height: auto;
+    }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media screen and (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* NAVIGATION */
+
+    .nav-container {
+        height: auto;
+        padding: 20px 0;
+        align-items: center;
+    }
+
+    .header-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        margin-left: 0;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    /* HERO */
+
+    .titlecard-container {
+        height: 50vh;
+        font-size: 2.8rem;
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* PRIMARY PORTRAIT */
+
+    .primary-portrait-card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .primary-portrait-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .primary-portrait-titlecard-container {
+        margin: 20px 0;
+    }
+
+    .primary-portrait-titlecard-text {
+        font-size: 4rem;
+        padding: 0 10px;
+    }
+
+    /* PRIMARY LANDSCAPE */
+
+    .primary-landscape-card-container {
+        margin: 20px 0;
+        padding: 20px;
+    }
+
+    .primary-landscape-titlecard-text {
+        font-size: 4rem;
+    }
+
+    .primary-landscape-img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* ABOUT */
+
+    .about-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .about-img,
+    .about-card {
+        width: 100%;
+    }
+
+    .about-card {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .nikon-img {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .about-card-text-wrapper {
+        font-size: 1.5rem;
+    }
+
+    .profile-img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* SECTION TITLES */
+
+    .portrait-titlecard {
+        font-size: 3rem;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .portrait-titlecard h3 {
+        font-size: 4rem;
+    }
+
+    /* PORTRAITS */
+
+    .portrait-container {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .portrait-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* LANDSCAPES */
+
+    .landscape-container {
+        margin: 20px 0;
+        padding: 20px;
+    }
+
+    .landscape-titlecard h2 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .landscape-top img {
+        width: 100%;
+    }
+
+    .landscape-bottom {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .landscape-bottom img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* DAHLIA */
+
+    .dahlia-titlecard h2 {
+        font-size: 4rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .dahlia-mid {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .dahlia-mid img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    /* CODE */
+
+    .code-container {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .code-wrapper,
+    .logo-wrapper {
+        width: 100%;
+    }
+
+    .code-wrapper {
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .code-wrapper img {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo-wrapper {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .logo-wrapper img {
+        width: 150px;
+    }
+
+    .code-p {
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+
+    /* CONTACT */
+
+    .contact-container {
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+        padding: 20px 0;
+    }
+
+    .contact-text,
+    .contact-img {
+        width: 100%;
+    }
+
+    .contact-text {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .contact-text img {
+        width: 60px;
+    }
+
+    .contact-img {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-img img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* FOOTER */
+
+    .footer-container {
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+    /* GENERAL */
+
+    .main-container {
+        margin: 0 5px;
+    }
+}
